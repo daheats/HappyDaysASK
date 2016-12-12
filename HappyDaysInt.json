@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "HappyDaysIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+  ]
+}

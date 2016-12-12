@@ -1,0 +1,3 @@
+HappyDaysIntent give me another quote
+HappyDaysIntent give me a quote
+HappyDaysIntent tell me a quote

@@ -4,16 +4,22 @@
       "intent": "HappyDaysIntent"
     },
     {
-      "intent": "AMAZON.HelpIntent"
+      "intent": "AnotherQuoteIntent"
     },
     {
-      "intent": "AMAZON.RepeatIntent"
+      "intent": "AMAZON.HelpIntent"
     },
     {
       "intent": "AMAZON.YesIntent"
     },
     {
       "intent": "AMAZON.NoIntent"
+    },
+    {  
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
     }
   ]
 }

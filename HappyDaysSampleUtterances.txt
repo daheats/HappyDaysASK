@@ -1,8 +1,11 @@
 HappyDaysIntent tell me a quote
-HappyDaysIntent ask Happy Days to give me a quote. 
+HappyDaysIntent ask Happy Days to give me a quote
 HappyDaysIntent give me a quote
+HappyDaysIntent give me another quote
 AMAZON.HelpIntent help
 AMAZON.HelpIntent help me
 AMAZON.HelpIntent I don't understand
 AnotherQuoteIntent tell me another quote
 AnotherQuoteIntent another quote
+AMAZON.CancelIntent cancel
+AMAZON.StopIntent stop

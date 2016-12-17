@@ -116,19 +116,10 @@ def on_intent(intent_request, session):
         return handle_help_request(intent, session)
     elif intent_name == "AnotherQuoteIntent":
         return handle_anotherq_request(intent, session)
-    else:
+    elif intent_name == "AMAZON.CancelIntent":
         return handle_finish_session_request(intent, session)
-        
-    if intent_name == "HappyDaysIntent":
-        return get_welcome_response()
-    elif intent_name == "AMAZON.NoIntent":
+    elif intent_name == "AMAZON.StopIntent":
         return handle_finish_session_request(intent, session)
-    elif intent_name == "AMAZON.YesIntent":
-        return return_handle_anotherq_request(intent, session)
-    elif intent_name == "AMAZON.HelpIntent":
-        return handle_help_request(intent, session)
-    elif intent_name == "AnotherQuoteIntent":
-        return handle_anotherq_request(intent, session)
     else:
         return handle_finish_session_request(intent, session)
         
